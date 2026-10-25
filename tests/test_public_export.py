@@ -69,7 +69,7 @@ class PublicExportTests(unittest.TestCase):
         self.assertIn("Content-Security-Policy", report)
 
     def test_findings_separate_observation_action_validation_and_counts(self):
-        self.write("recommendations.json", {"review_method": "研究者借助 AI 归纳并复核", "reviewed_comments": 8, "findings": [{"category": "optimization", "title": "性能线索", "observation": "部分样本提及特定场景卡顿", "recommendation": "记录设备与场景并复现", "validation": "开展帧时间测试", "evidence_count": 3, "source_count": 99, "source_urls": ["https://www.kurobbs.com/mc/post/123", "https://www.kurobbs.com/mc/post/123", "https://evil.com/post/1"], "caveat": "来源集中", "raw_comments": ["PRIVATE"]}]})
+        self.write("recommendations.json", {"review_method": "评论语境分析与归纳", "reviewed_comments": 8, "findings": [{"category": "optimization", "title": "性能线索", "observation": "部分样本提及特定场景卡顿", "recommendation": "记录设备与场景并复现", "validation": "开展帧时间测试", "evidence_count": 3, "source_count": 99, "source_urls": ["https://www.kurobbs.com/mc/post/123", "https://www.kurobbs.com/mc/post/123", "https://evil.com/post/1"], "caveat": "来源集中", "raw_comments": ["PRIVATE"]}]})
         result = export_public_study(self.source, self.dest)
         finding = result["findings"][0]
         self.assertEqual(finding["evidence_count"], 3)

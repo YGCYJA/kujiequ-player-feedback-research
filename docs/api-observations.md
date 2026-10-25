@@ -42,7 +42,7 @@ User-Agent: 普通桌面浏览器 User-Agent
 | `showOrderType` | `2` 为“默认”，`3` 为“最新”，由官网下拉菜单映射确认 |
 | `isOnlyPublisher` | `0` 全部评论，官网切换“只看楼主”时设为 `1` |
 
-官网此处没有传 `sortType` 或 `gameId`，项目应优先遵循官网当前形状。第三方客户端中的 `sortType` 不应直接当成官网参数。
+官网此处没有传 `sortType` 或 `gameId`，项目应优先遵循官网当前形状。
 
 `data` 核实字段：
 
@@ -79,7 +79,7 @@ User-Agent: 普通桌面浏览器 User-Agent
 
 实测请求参数：`postId`、`postCommentId`、`pageIndex`、`pageSize`。
 
-第三方一手客户端实现了该路径，本地匿名实测也成功，返回：
+本地匿名实测该路径成功，返回：
 
 - `data.replys`：回复数组，字段名称确实是 `replys`。
 - `data.hasNext`：数字分页标记。
@@ -158,7 +158,5 @@ User-Agent: 普通桌面浏览器 User-Agent
 - [官网请求封装与接口脚本](https://web-static.kurobbs.com/resource/prod/assets/useConfig-DLqk4N_9.js)：API 根地址、表单请求和访客 token 处理、官方公告接口与枚举。
 - [官网分页组件](https://web-static.kurobbs.com/resource/prod/assets/useListRequester-Ci39_XYq.js)：`pageIndex`、`pageSize` 和 `hasNext`。
 - [官网搜索脚本](https://web-static.kurobbs.com/resource/prod/assets/search-container-Sxg9sHGO.js)：搜索路径存在的依据，不是成功访问的证据。
-- [FoundryWP/KuroBBS 的 KuroForumService.cs](https://github.com/FoundryWP/KuroBBS/blob/main/KuroBBS/KuroBBS/KuroBBS.Shared/Services/KuroForumService.cs)：第三方客户端的一手实现，交叉核对评论和回复字段；实际参数以官网和本次实测为准。
-- [TomyJan/Kuro-API-Collection](https://github.com/TomyJan/Kuro-API-Collection/blob/master/API/forum/getPostDetail.md)：旧版结构及公开测试帖的发现来源，不把其旧版登录要求直接套用到当前官网。
 
 脚本文件名带构建哈希，下次部署后可能失效；重新核实时应从新的公开 HTML 读取实际链接。
