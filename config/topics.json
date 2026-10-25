@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "description": "可编辑的主题提及词典；关键词命中不等于负面评价、真实需求或模型判断。各主题允许重叠。",
+  "groups": {
+    "character": "角色反馈",
+    "optimization": "优化相关"
+  },
+  "topics": [
+    {
+      "id": "character_mechanics",
+      "name": "角色机制",
+      "group": "character",
+      "keywords": [
+        "角色机制",
+        "技能",
+        "连招",
+        "循环",
+        "共鸣解放",
+        "共鸣技能",
+        "变奏",
+        "延奏",
+        "协奏",
+        "共鸣回路",
+        "大招"
+      ]
+    },
+    {
+      "id": "character_feel",
+      "name": "操作与手感",
+      "group": "character",
+      "keywords": [
+        "手感",
+        "打击感",
+        "操作",
+        "锁敌",
+        "索敌",
+        "后摇",
+        "前摇",
+        "取消动作",
+        "闪避",
+        "弹反"
+      ]
+    },
+    {
+      "id": "character_progression",
+      "name": "养成与资源",
+      "group": "character",
+      "keywords": [
+        "养成",
+        "声骸",
+        "武器",
+        "突破",
+        "素材",
+        "共鸣链",
+        "加点",
+        "词条",
+        "培养成本"
+      ]
+    },
+    {
+      "id": "character_balance",
+      "name": "强度与数值",
+      "group": "character",
+      "keywords": [
+        "强度",
+        "伤害",
+        "倍率",
+        "数值",
+        "削弱",
+        "加强",
+        "平衡",
+        "输出",
+        "超模",
+        "膨胀"
+      ]
+    },
+    {
+      "id": "character_presentation",
+      "name": "角色表现",
+      "group": "character",
+      "keywords": [
+        "立绘",
+        "建模",
+        "配音",
+        "人设",
+        "角色剧情",
+        "角色设计",
+        "动作",
+        "表情",
+        "服装"
+      ]
+    },
+    {
+      "id": "performance_fps",
+      "name": "帧率与卡顿",
+      "group": "optimization",
+      "keywords": [
+        "帧率",
+        "帧数",
+        "掉帧",
+        "卡顿",
+        "卡帧",
+        "fps",
+        "帧生成",
+        "稳帧",
+        "流畅"
+      ]
+    },
+    {
+      "id": "thermal_power",
+      "name": "发热与耗电",
+      "group": "optimization",
+      "keywords": [
+        "发热",
+        "过热",
+        "烫手",
+        "温度",
+        "耗电",
+        "续航",
+        "功耗",
+        "降频"
+      ]
+    },
+    {
+      "id": "stability",
+      "name": "闪退与稳定性",
+      "group": "optimization",
+      "keywords": [
+        "闪退",
+        "崩溃",
+        "黑屏",
+        "死机",
+        "无响应",
+        "报错",
+        "启动失败"
+      ]
+    },
+    {
+      "id": "network",
+      "name": "网络与连接",
+      "group": "optimization",
+      "keywords": [
+        "网络",
+        "延迟",
+        "丢包",
+        "断线",
+        "掉线",
+        "重连",
+        "连接失败",
+        "ping"
+      ]
+    },
+    {
+      "id": "graphics_loading",
+      "name": "画面与加载",
+      "group": "optimization",
+      "keywords": [
+        "贴图",
+        "加载",
+        "画质",
+        "渲染",
+        "光影",
+        "视距",
+        "锯齿",
+        "分辨率",
+        "模糊"
+      ]
+    },
+    {
+      "id": "device_compatibility",
+      "name": "设备适配",
+      "group": "optimization",
+      "keywords": [
+        "适配",
+        "兼容",
+        "安卓",
+        "android",
+        "ios",
+        "iphone",
+        "ipad",
+        "鸿蒙",
+        "模拟器",
+        "显卡",
+        "驱动",
+        "机型"
+      ]
+    },
+    {
+      "id": "optimization_general",
+      "name": "其他优化提及",
+      "group": "optimization",
+      "keywords": [
+        "优化",
+        "性能",
+        "内存",
+        "闪屏",
+        "体验修复"
+      ]
+    }
+  ]
+}

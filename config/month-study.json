@@ -1,0 +1,28 @@
+{
+  "study_id": "2026-09-25_2026-10-25",
+  "start": "2026-09-25T00:00:00+08:00",
+  "end": "collection_end_plus_one_second",
+  "timezone": "Asia/Shanghai",
+  "sampling": "目的性选样：官方版本反馈、优化说明、角色战斗演示/展示/PV/活动公告；每帖最新最多600条顶层评论。并非全社区随机或全量采样。",
+  "unit": "top_level_comment",
+  "max_comments_per_post": 600,
+  "max_pages_per_post": 12,
+  "page_size": 50,
+  "delay_seconds": 2,
+  "posts": [
+    {"post_id": "1551620270882566144", "stratum": "feedback", "reason": "版本建议反馈收集帖，直接收集体验问题"},
+    {"post_id": "1554788184571133952", "stratum": "optimization", "reason": "已知问题和更新说明"},
+    {"post_id": "1554535385333796864", "stratum": "optimization", "reason": "版本内容说明，覆盖综合体验反馈"},
+    {"post_id": "1552747271999410176", "stratum": "optimization", "reason": "客户端资源分级，帖早于窗口但允许纳入窗口内评论"},
+    {"post_id": "1561054477446103040", "stratum": "character", "reason": "锁暝战斗演示"},
+    {"post_id": "1553219154509074432", "stratum": "character", "reason": "心战斗演示"},
+    {"post_id": "1560708863715774464", "stratum": "character", "reason": "锁暝角色展示"},
+    {"post_id": "1552728620274802688", "stratum": "character", "reason": "心角色展示"},
+    {"post_id": "1560268447163764736", "stratum": "character", "reason": "锁暝角色档案"},
+    {"post_id": "1552685093440864256", "stratum": "character", "reason": "心角色档案"},
+    {"post_id": "1561771205557829632", "stratum": "character", "reason": "锁暝PV，区分期待与使用体验"},
+    {"post_id": "1553219921630347264", "stratum": "character", "reason": "心PV，区分期待与使用体验"},
+    {"post_id": "1562064227775750144", "stratum": "character", "reason": "锁暝角色活动公告，提供上线后讨论"},
+    {"post_id": "1554095213865066496", "stratum": "character", "reason": "心角色活动公告，提供上线后讨论"}
+  ]
+}

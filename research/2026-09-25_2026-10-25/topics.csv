@@ -1,0 +1,13 @@
+id,name,group,comment_count,share_of_all
+character_mechanics,角色机制,character,27,0.012005
+character_feel,操作与手感,character,4,0.001779
+character_progression,养成与资源,character,41,0.01823
+character_balance,强度与数值,character,20,0.008893
+character_presentation,角色表现,character,19,0.008448
+performance_fps,帧率与卡顿,optimization,8,0.003557
+thermal_power,发热与耗电,optimization,3,0.001334
+stability,闪退与稳定性,optimization,12,0.005336
+network,网络与连接,optimization,7,0.003112
+graphics_loading,画面与加载,optimization,22,0.009782
+device_compatibility,设备适配,optimization,15,0.00667
+optimization_general,其他优化提及,optimization,25,0.011116

@@ -1,0 +1,597 @@
+{
+  "schema_version": 1,
+  "title": "鸣潮近一个月角色与优化反馈研究",
+  "generated_at": "2026-10-25T09:02:47+00:00",
+  "dataset_kind": "live",
+  "timezone": "UTC+08:00",
+  "study_window": {
+    "start": "2026-09-25T00:00:00+08:00",
+    "end": "2026-10-25T16:54:46+08:00"
+  },
+  "date_range": {
+    "start": "2026-09-25",
+    "end": "2026-10-24"
+  },
+  "total_comments": 2249,
+  "matched_comments": 149,
+  "multi_topic_comments": 36,
+  "unknown_time_comments": 0,
+  "topic_counts": [
+    {
+      "id": "character_mechanics",
+      "name": "角色机制",
+      "group": "character",
+      "comment_count": 27,
+      "share_of_all": 0.012005
+    },
+    {
+      "id": "character_feel",
+      "name": "操作与手感",
+      "group": "character",
+      "comment_count": 4,
+      "share_of_all": 0.001779
+    },
+    {
+      "id": "character_progression",
+      "name": "养成与资源",
+      "group": "character",
+      "comment_count": 41,
+      "share_of_all": 0.01823
+    },
+    {
+      "id": "character_balance",
+      "name": "强度与数值",
+      "group": "character",
+      "comment_count": 20,
+      "share_of_all": 0.008893
+    },
+    {
+      "id": "character_presentation",
+      "name": "角色表现",
+      "group": "character",
+      "comment_count": 19,
+      "share_of_all": 0.008448
+    },
+    {
+      "id": "performance_fps",
+      "name": "帧率与卡顿",
+      "group": "optimization",
+      "comment_count": 8,
+      "share_of_all": 0.003557
+    },
+    {
+      "id": "thermal_power",
+      "name": "发热与耗电",
+      "group": "optimization",
+      "comment_count": 3,
+      "share_of_all": 0.001334
+    },
+    {
+      "id": "stability",
+      "name": "闪退与稳定性",
+      "group": "optimization",
+      "comment_count": 12,
+      "share_of_all": 0.005336
+    },
+    {
+      "id": "network",
+      "name": "网络与连接",
+      "group": "optimization",
+      "comment_count": 7,
+      "share_of_all": 0.003112
+    },
+    {
+      "id": "graphics_loading",
+      "name": "画面与加载",
+      "group": "optimization",
+      "comment_count": 22,
+      "share_of_all": 0.009782
+    },
+    {
+      "id": "device_compatibility",
+      "name": "设备适配",
+      "group": "optimization",
+      "comment_count": 15,
+      "share_of_all": 0.00667
+    },
+    {
+      "id": "optimization_general",
+      "name": "其他优化提及",
+      "group": "optimization",
+      "comment_count": 25,
+      "share_of_all": 0.011116
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-09-25",
+      "comment_count": 99,
+      "matched_comment_count": 11,
+      "character_feedback_count": 3,
+      "optimization_count": 8
+    },
+    {
+      "date": "2026-09-26",
+      "comment_count": 155,
+      "matched_comment_count": 15,
+      "character_feedback_count": 10,
+      "optimization_count": 7
+    },
+    {
+      "date": "2026-09-27",
+      "comment_count": 65,
+      "matched_comment_count": 7,
+      "character_feedback_count": 4,
+      "optimization_count": 3
+    },
+    {
+      "date": "2026-09-28",
+      "comment_count": 142,
+      "matched_comment_count": 8,
+      "character_feedback_count": 5,
+      "optimization_count": 3
+    },
+    {
+      "date": "2026-09-29",
+      "comment_count": 114,
+      "matched_comment_count": 4,
+      "character_feedback_count": 1,
+      "optimization_count": 3
+    },
+    {
+      "date": "2026-09-30",
+      "comment_count": 466,
+      "matched_comment_count": 32,
+      "character_feedback_count": 11,
+      "optimization_count": 23
+    },
+    {
+      "date": "2026-10-01",
+      "comment_count": 150,
+      "matched_comment_count": 9,
+      "character_feedback_count": 8,
+      "optimization_count": 1
+    },
+    {
+      "date": "2026-10-02",
+      "comment_count": 120,
+      "matched_comment_count": 9,
+      "character_feedback_count": 7,
+      "optimization_count": 2
+    },
+    {
+      "date": "2026-10-03",
+      "comment_count": 61,
+      "matched_comment_count": 4,
+      "character_feedback_count": 4,
+      "optimization_count": 0
+    },
+    {
+      "date": "2026-10-04",
+      "comment_count": 45,
+      "matched_comment_count": 7,
+      "character_feedback_count": 7,
+      "optimization_count": 0
+    },
+    {
+      "date": "2026-10-05",
+      "comment_count": 28,
+      "matched_comment_count": 2,
+      "character_feedback_count": 2,
+      "optimization_count": 0
+    },
+    {
+      "date": "2026-10-06",
+      "comment_count": 23,
+      "matched_comment_count": 4,
+      "character_feedback_count": 4,
+      "optimization_count": 0
+    },
+    {
+      "date": "2026-10-07",
+      "comment_count": 16,
+      "matched_comment_count": 2,
+      "character_feedback_count": 2,
+      "optimization_count": 0
+    },
+    {
+      "date": "2026-10-08",
+      "comment_count": 12,
+      "matched_comment_count": 1,
+      "character_feedback_count": 1,
+      "optimization_count": 1
+    },
+    {
+      "date": "2026-10-09",
+      "comment_count": 9,
+      "matched_comment_count": 1,
+      "character_feedback_count": 0,
+      "optimization_count": 1
+    },
+    {
+      "date": "2026-10-10",
+      "comment_count": 16,
+      "matched_comment_count": 0,
+      "character_feedback_count": 0,
+      "optimization_count": 0
+    },
+    {
+      "date": "2026-10-11",
+      "comment_count": 9,
+      "matched_comment_count": 1,
+      "character_feedback_count": 1,
+      "optimization_count": 0
+    },
+    {
+      "date": "2026-10-12",
+      "comment_count": 8,
+      "matched_comment_count": 0,
+      "character_feedback_count": 0,
+      "optimization_count": 0
+    },
+    {
+      "date": "2026-10-13",
+      "comment_count": 9,
+      "matched_comment_count": 0,
+      "character_feedback_count": 0,
+      "optimization_count": 0
+    },
+    {
+      "date": "2026-10-14",
+      "comment_count": 8,
+      "matched_comment_count": 1,
+      "character_feedback_count": 1,
+      "optimization_count": 0
+    },
+    {
+      "date": "2026-10-15",
+      "comment_count": 9,
+      "matched_comment_count": 1,
+      "character_feedback_count": 1,
+      "optimization_count": 1
+    },
+    {
+      "date": "2026-10-16",
+      "comment_count": 4,
+      "matched_comment_count": 0,
+      "character_feedback_count": 0,
+      "optimization_count": 0
+    },
+    {
+      "date": "2026-10-17",
+      "comment_count": 106,
+      "matched_comment_count": 2,
+      "character_feedback_count": 2,
+      "optimization_count": 0
+    },
+    {
+      "date": "2026-10-18",
+      "comment_count": 221,
+      "matched_comment_count": 14,
+      "character_feedback_count": 11,
+      "optimization_count": 3
+    },
+    {
+      "date": "2026-10-19",
+      "comment_count": 71,
+      "matched_comment_count": 5,
+      "character_feedback_count": 4,
+      "optimization_count": 1
+    },
+    {
+      "date": "2026-10-20",
+      "comment_count": 125,
+      "matched_comment_count": 1,
+      "character_feedback_count": 0,
+      "optimization_count": 1
+    },
+    {
+      "date": "2026-10-21",
+      "comment_count": 86,
+      "matched_comment_count": 2,
+      "character_feedback_count": 1,
+      "optimization_count": 1
+    },
+    {
+      "date": "2026-10-22",
+      "comment_count": 47,
+      "matched_comment_count": 3,
+      "character_feedback_count": 2,
+      "optimization_count": 1
+    },
+    {
+      "date": "2026-10-23",
+      "comment_count": 21,
+      "matched_comment_count": 3,
+      "character_feedback_count": 3,
+      "optimization_count": 0
+    },
+    {
+      "date": "2026-10-24",
+      "comment_count": 4,
+      "matched_comment_count": 0,
+      "character_feedback_count": 0,
+      "optimization_count": 0
+    }
+  ],
+  "sources": [
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1551620270882566144",
+      "title": "《鸣潮》3.7版本建议反馈收集贴",
+      "published_at": "2026-09-30T12:00:00+08:00",
+      "collected_comments": 20,
+      "included_comments": 20,
+      "complete_within_scope": true
+    },
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1554788184571133952",
+      "title": "3.7版本已知问题及更新说明",
+      "published_at": "2026-09-30T09:33:10+08:00",
+      "collected_comments": 307,
+      "included_comments": 307,
+      "complete_within_scope": true
+    },
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1554535385333796864",
+      "title": "「镜锁妄世，心照红尘」3.7版本内容说明",
+      "published_at": "2026-09-30T10:00:00+08:00",
+      "collected_comments": 122,
+      "included_comments": 122,
+      "complete_within_scope": true
+    },
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1552747271999410176",
+      "title": "关于客户端资源分级功能的相关说明",
+      "published_at": "2026-09-24T19:00:00+08:00",
+      "collected_comments": 63,
+      "included_comments": 50,
+      "complete_within_scope": true
+    },
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1561054477446103040",
+      "title": "《鸣潮》共鸣者战斗演示 | 锁暝",
+      "published_at": "2026-10-18T11:00:00+08:00",
+      "collected_comments": 194,
+      "included_comments": 191,
+      "complete_within_scope": true
+    },
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1553219154509074432",
+      "title": "《鸣潮》共鸣者战斗演示 | 心",
+      "published_at": "2026-09-26T11:00:00+08:00",
+      "collected_comments": 276,
+      "included_comments": 268,
+      "complete_within_scope": true
+    },
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1560708863715774464",
+      "title": "《寰宇人类注疏：群星交错》共鸣者展示 | 锁暝",
+      "published_at": "2026-10-17T11:00:00+08:00",
+      "collected_comments": 177,
+      "included_comments": 176,
+      "complete_within_scope": true
+    },
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1552728620274802688",
+      "title": "《寰宇人类注疏：群星交错》共鸣者展示 | 心",
+      "published_at": "2026-09-25T11:00:00+08:00",
+      "collected_comments": 116,
+      "included_comments": 115,
+      "complete_within_scope": true
+    },
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1560268447163764736",
+      "title": "档案公开 | 十重契——锁暝",
+      "published_at": "2026-10-18T11:05:00+08:00",
+      "collected_comments": 111,
+      "included_comments": 109,
+      "complete_within_scope": true
+    },
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1552685093440864256",
+      "title": "档案公开 | 万相分形——心",
+      "published_at": "2026-09-26T11:05:00+08:00",
+      "collected_comments": 161,
+      "included_comments": 161,
+      "complete_within_scope": true
+    },
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1561771205557829632",
+      "title": "《鸣潮》共鸣者「锁暝」PV | 契阔",
+      "published_at": "2026-10-20T11:00:00+08:00",
+      "collected_comments": 189,
+      "included_comments": 177,
+      "complete_within_scope": true
+    },
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1553219921630347264",
+      "title": "《鸣潮》共鸣者「心」PV | 梦阑珊",
+      "published_at": "2026-09-28T11:00:00+08:00",
+      "collected_comments": 492,
+      "included_comments": 486,
+      "complete_within_scope": true
+    },
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1562064227775750144",
+      "title": "[余心所向九死未悔]角色活动唤取",
+      "published_at": "2026-10-21T11:00:00+08:00",
+      "collected_comments": 19,
+      "included_comments": 18,
+      "complete_within_scope": true
+    },
+    {
+      "source_url": "https://www.kurobbs.com/mc/post/1554095213865066496",
+      "title": "[但愿长圆如此夜]角色活动唤取",
+      "published_at": "2026-09-29T11:00:00+08:00",
+      "collected_comments": 49,
+      "included_comments": 49,
+      "complete_within_scope": true
+    }
+  ],
+  "reviewed_comments": 249,
+  "findings": [
+    {
+      "category": "optimization",
+      "title": "优先核实启动、着色器编译与活动切换的阻断问题",
+      "observation": "15条不同文本自述崩溃、闪退、着色器编译卡住或显存不足，触发场景涉及启动、更新后编译、活动入口、抽取记录及切换3D。部分反馈提供了设备、系统或进度信息，其中有无法进入设置恢复的情况。它们支持建立阻断性问题验证清单，不证明15位独立玩家或同一个根因。",
+      "recommendation": "先复现阻断游玩的路径，按图形后端、设备和入口分组；评估提供安全画质启动、图形设置重置及失败后的可恢复入口，避免用户只能重装。反馈入口自动携带版本、图形选项和错误日志，并清楚展示受理与修复状态。",
+      "validation": "分别测试冷启动、着色器首次/重复编译、活动页面与3D切换；记录失败率、复现条件、恢复成功率和恢复步骤。对照日志确认问题，而非从评论中的显卡型号直接推断兼容性或内存根因。",
+      "caveat": "15是已读文本中的具体报告数，非用户数、总体发生率或故障证明。未查看附图、采集设备日志或实际运行游戏，不能宣称某平台普遍不可用。",
+      "evidence_count": 15,
+      "source_count": 4,
+      "source_urls": [
+        "https://www.kurobbs.com/mc/post/1551620270882566144",
+        "https://www.kurobbs.com/mc/post/1554788184571133952",
+        "https://www.kurobbs.com/mc/post/1560268447163764736",
+        "https://www.kurobbs.com/mc/post/1553219921630347264"
+      ]
+    },
+    {
+      "category": "optimization",
+      "title": "讲清资源包、渲染档位与设备限制之间的关系",
+      "observation": "6条不同文本明确询问资源包与光追/分辨率的关系、设备适合哪个档位、高清与极致差异、能否拆分贴图和过场资源，或为何设备只能选择特定预设。其中包含对当前表现的正面描述，不能全部算作负面评价。",
+      "recommendation": "在下载选择页用对照表分别说明资源内容、占用、可用画质与设备限制；将“下载什么资源”和“运行什么渲染设置”分开解释。提供预览、剩余空间提示与可逆切换说明，评估贴图和过场资源分项选择。",
+      "validation": "让不同配置的新老玩家完成包体选择任务，检查能否正确解释包体、画质和运行表现的关系，记录选择理由、错误理解和后续切换路径；再验证分项下载的可行性。",
+      "caveat": "6条都来自同一资源分级说明帖，反映该讨论场景内的信息需求，不足以估算全部玩家的理解困难，也不证明现有说明完全缺失。",
+      "evidence_count": 6,
+      "source_count": 1,
+      "source_urls": [
+        "https://www.kurobbs.com/mc/post/1552747271999410176"
+      ]
+    },
+    {
+      "category": "optimization",
+      "title": "建立按平台和场景拆分的性能与画面回归清单",
+      "observation": "9条不同文本分别描述不同图形后端掉帧、战斗与活动页面帧率差异、移动端发热、进入游戏耗时、移动端出怪等待、更新后模糊、设备画质适配、严重卡顿及滤镜锐化问题。症状不同，不能汇总成一个已确认的“性能差”原因。",
+      "recommendation": "将战斗、活动页面、加载/出怪和首进游戏分开测试；在平台、图形后端和画质档位下分别记录帧时间、等待时间与画面设置。对发热和耗电结合实际设备记录；视觉锐化、模糊和适配需求单列处理。",
+      "validation": "建立同场景、同设置、同版本的对照任务，测量帧时间分布和卡顿尖峰，而非只看平均帧率；同时采集温度、加载等待及设置截图。用用户自述定位测试条件，不把出怪等待直接归因于网络。",
+      "caveat": "9是已核查评论文本数，设备和场景差异大，未进行性能测量。反馈模板中的“网络环境”以及配队讨论中的“适配”不会被当作真实网络或设备故障证据。",
+      "evidence_count": 9,
+      "source_count": 3,
+      "source_urls": [
+        "https://www.kurobbs.com/mc/post/1554788184571133952",
+        "https://www.kurobbs.com/mc/post/1552747271999410176",
+        "https://www.kurobbs.com/mc/post/1560708863715774464"
+      ]
+    },
+    {
+      "category": "optimization",
+      "title": "验证任务中途退出与传送后的恢复路径",
+      "observation": "2条不同文本分别自述任务中途退出后被困，以及传送离开后无法继续任务。它们未命中现有主题词典，是未命中覆盖样本中发现的具体使用障碍。",
+      "recommendation": "将中断、退出、传送离开、重新登录与重入任务组成恢复测试；评估提供明确的重入、重置或客服协助路径，保护任务进度并提示恢复后的影响。",
+      "validation": "按任务状态逐步中断再重入，记录是否能回到可继续状态、是否丢失进度以及恢复用时；先确认问题是否仍存在，再决定修复或引导方案。",
+      "caveat": "仅2条自述来自同一已知问题帖，未查看图片或复现，不能认为所有任务都受影响；这是一项阻断性风险线索。",
+      "evidence_count": 2,
+      "source_count": 1,
+      "source_urls": [
+        "https://www.kurobbs.com/mc/post/1554788184571133952"
+      ]
+    },
+    {
+      "category": "character",
+      "title": "优先验证战斗镜头恢复、首次大招停顿与打击反馈",
+      "observation": "5条不同文本反馈分别涉及攻击后镜头被拉近且不自动恢复（1条）、首次释放大招卡住（1条），以及心月狐的攻击手感或视觉接触感不足（3条）。这些是用户自述的体验线索，可形成复现与测试任务。",
+      "recommendation": "针对被提及的角色和技能建立测试场景：检查最远镜头设置在攻击后是否恢复；比较每日或会话首次与后续释放大招；对命中表现、镜头、音效和反馈节奏进行对照测试。先确认问题条件，再确定修改方案。",
+      "validation": "记录设备、画质、帧率、角色形态、具体连招和冷启动状态；镜头问题记录触发前后距离；在同一战斗场景比较不同反馈方案，观察命中辨识与操作判断，并访谈实际使用者。",
+      "caveat": "5是评论数，不是玩家人数或发生率。镜头、停顿与主观打击感不是同一种根因；当前未取得录像和复现日志，不能直接认定角色机制有缺陷或硬件性能不足。",
+      "evidence_count": 5,
+      "source_count": 5,
+      "source_urls": [
+        "https://www.kurobbs.com/mc/post/1551620270882566144",
+        "https://www.kurobbs.com/mc/post/1554788184571133952",
+        "https://www.kurobbs.com/mc/post/1561054477446103040",
+        "https://www.kurobbs.com/mc/post/1552685093440864256",
+        "https://www.kurobbs.com/mc/post/1553219921630347264"
+      ]
+    },
+    {
+      "category": "character",
+      "title": "核查模型与展示的一致性、待机穿模及界面动作衔接",
+      "observation": "7条不同文本涉及立绘与模型或比例观感的落差（3条）、尾部僵硬观感（1条）、待机动作疑似穿模（2条），以及角色养成页面切换时的动作衔接（1条）。其中部分来自展示内容后的审美反馈，不能当作实际战斗体验投诉。",
+      "recommendation": "分别建立立绘与模型在相近角度下的对照检查、待机与姿态切换穿模检查，以及武器/声骸/共鸣链页面切换的动画连续性检查。审美偏好先通过展示对照确认，不将单一评论直接转为比例改动。",
+      "validation": "获取角色形态、具体动作、镜头角度和画质设置；对疑似穿模和页面切换逐项复现；通过相近视角素材测试玩家是否仍感到差异，并分开记录审美偏好与可复现缺陷。",
+      "caveat": "7是评论数，不代表7位独立玩家。未查看评论所附图片，也未实际检查游戏模型；“比例不协调”“尾巴僵硬”是主观感受，穿模目前是待复现报告。不能据此宣布模型客观错误。",
+      "evidence_count": 7,
+      "source_count": 6,
+      "source_urls": [
+        "https://www.kurobbs.com/mc/post/1551620270882566144",
+        "https://www.kurobbs.com/mc/post/1561054477446103040",
+        "https://www.kurobbs.com/mc/post/1560708863715774464",
+        "https://www.kurobbs.com/mc/post/1552728620274802688",
+        "https://www.kurobbs.com/mc/post/1552685093440864256",
+        "https://www.kurobbs.com/mc/post/1553219921630347264"
+      ]
+    },
+    {
+      "category": "character",
+      "title": "核验声骸获取异常与资源损失，并澄清养成路径",
+      "observation": "18条不同文本表达声骸获取或强化的挫败、掉落异常或投入损失的主张，以及补偿、养成周期、突破材料地域门槛和材料利用的诉求。其中包括规定未命中覆盖样本中新发现的1条C3掉落异常反馈。不能把关于掉率或损失的说法当成已经核实的游戏事实。",
+      "recommendation": "先对照已知问题和服务器记录核查掉落异常的影响范围与时间，明确说明修复状态及补偿评估方式；同时梳理角色突破材料的获取路径、养成周期提示及多余声骸处理流程。将正常随机波动、获取门槛和系统异常分开处理。",
+      "validation": "核查对应版本、关卡、消耗、掉落与账号日志；针对新玩家测试能否在不提前推进剧情的条件下找到所需材料及替代路线；对声骸筛选与处理任务观察操作步骤和完成情况。",
+      "caveat": "18是不同评论文本数，不是人数；其内容横跨正常随机机制、用户感知和疑似缺陷。评论中的体力、材料数量与掉率未经独立核验，不能据此宣布暗改、准确培养天数或损失规模。没有把单纯转述“素材”、抽卡晒出武器或预告传言计入。",
+      "evidence_count": 18,
+      "source_count": 4,
+      "source_urls": [
+        "https://www.kurobbs.com/mc/post/1554788184571133952",
+        "https://www.kurobbs.com/mc/post/1552747271999410176",
+        "https://www.kurobbs.com/mc/post/1561771205557829632",
+        "https://www.kurobbs.com/mc/post/1553219921630347264"
+      ]
+    },
+    {
+      "category": "character",
+      "title": "提供分层技能说明与可查的培养准备信息",
+      "observation": "2条不同文本直接表达技能说明理解困难，其中1条明确提出简版或按形态分组；另3条是武器类型、声骸套装或突破材料可达性的准备信息询问。这3条是信息需求，不等于养成成本投诉，也不证明信息在游戏中不存在。",
+      "recommendation": "在完整数值说明之外提供简明机制概要，按形态或技能阶段展开，配合连招与触发示例；集中展示武器类型、推荐资源及材料获取入口，区分上线前信息与当前可获取内容。",
+      "validation": "让目标玩家在不借助外部攻略的条件下解释关键触发条件并完成配装与材料查找任务，记录理解错误、查找路径和用时；分别覆盖新玩家和熟练玩家。",
+      "caveat": "5是评论数，其中只有2条是明确的理解困难反馈，3条为准备信息询问。用户可能尚未阅读现有说明，也可能处于角色上线前；需要验证才能判断是说明设计还是信息传播问题。",
+      "evidence_count": 5,
+      "source_count": 3,
+      "source_urls": [
+        "https://www.kurobbs.com/mc/post/1560708863715774464",
+        "https://www.kurobbs.com/mc/post/1560268447163764736",
+        "https://www.kurobbs.com/mc/post/1552685093440864256"
+      ]
+    }
+  ],
+  "methodology": {
+    "sampling": "选定公开帖子内按指定排序、分页及上限采集；按评论日期的可能区间筛选研究窗口，仅保留整个可能区间均在窗口内的记录。",
+    "labeling": "关键词词典、多标签主题提及统计；每项占比以全部纳入评论数为分母。",
+    "review_method": "AI辅助语境复核：逐条阅读149条主题规则命中评论，另按CSV顺序对2100条未命中评论每21条取1条、共100条作覆盖检查；合并去重共249条。区分正面、询问、玩笑、转述与具体问题，检查重复文本。未进行真人访谈、实际游戏复现或独立双人编码。",
+    "include_replies": false,
+    "order": 3,
+    "date_precision": "本次日期筛选保留的记录全部为日精度，没有精确评论创建时刻。根据月日显示推断年份的记录单独计数。",
+    "date_inference_assumption": "日期推断以官方栏目发布时间为公开评论下界的假设，不是底层创建时间官方保证；采集时间为可见评论的上界。只有满足已知边界且存在唯一可能年份的月日显示才能推断。"
+  },
+  "cleaning_counts": {
+    "input_rows": 2271,
+    "kept_rows": 2249,
+    "duplicate_rows": 0,
+    "empty_rows": 0,
+    "too_short_rows": 22,
+    "malformed_rows": 0,
+    "invalid_created_at_rows": 0
+  },
+  "period_counts": {
+    "input_rows": 2296,
+    "kept_rows": 2271,
+    "outside_period_rows": 13,
+    "before_window_rows": 13,
+    "after_window_rows": 0,
+    "undetermined_date_rows": 12,
+    "day_precision_inferred_rows": 2284,
+    "kept_day_precision_inferred_rows": 2271,
+    "kept_day_precision_rows": 2271,
+    "kept_exact_timestamp_rows": 0,
+    "boundary_overlap_rows": 0,
+    "malformed_rows": 0
+  },
+  "limitations": [
+    "这是选定帖子内的定向便利样本，不是随机抽样；不能代表全部库街区用户或鸣潮玩家，评论条数不等于玩家人数。",
+    "采集排序、分页与条数上限会影响样本构成；完成所设范围也不等于采完整个平台或近一个月全部评论。",
+    "主题词典只识别提及，不判断正负态度、问题严重程度或因果；存在误判与漏判。",
+    "研究者核查用于解释具体样本，未经独立双人标注和一致性检验，不能报告分类准确率或总体负面率。",
+    "建议是待验证的产品假设，应结合设备、场景、角色熟练度访谈及性能或可用性测试验证。",
+    "日期推断以官方栏目发布时间为公开评论下界的假设，不是底层创建时间官方保证；月日显示仅在发布时间与采集时间约束下存在唯一可能年份时推断，日精度不扩充为精确创建时刻。"
+  ]
+}
